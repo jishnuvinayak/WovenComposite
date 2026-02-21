@@ -41,12 +41,3 @@ The implementation addresses:
 * Matrix-dominated loading cases (e.g., ±45° stacking) exhibit convergence issues due to the return mapping formulation.
 * The cutting-plane based algorithm does not provide an algorithmically consistent tangent operator, which affects convergence for larger time steps.
 * Future improvements require refinement of the return mapping scheme and improved initialization strategies for the local Newton–Raphson iteration.
-
----
-
-If you would like, I can now:
-
-* Add a **Repository Structure** section,
-* Add a short **How to Run** section,
-* Or slightly tighten the wording to make it more “framework developer–oriented” for the Hereon reviewers.
-
